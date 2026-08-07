@@ -1,5 +1,5 @@
-letters = input('Enter the letters: ').split()
-n = int(input('Enter the number of elements in groups: '))
+letters = input('Enter the letters: ').split() # A B C D E
+n = int(input('Enter the number of elements in groups: ')) # 3
 res = []
 line = ''
 def lexf(arr, depth):
