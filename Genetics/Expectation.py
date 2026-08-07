@@ -1,12 +1,12 @@
 def expected_value(line):
     number = line.split()
     couples = {}
-    couples['0'] = 1
-    couples['1'] = 1
-    couples['2'] = 1
-    couples['3'] = 0.75
-    couples['4'] = 0.5
-    couples['5'] = 0
+    couples['0'] = 1 # AA-AA
+    couples['1'] = 1 # AA-Aa
+    couples['2'] = 1 # AA-aa
+    couples['3'] = 0.75 #Aa-Aa
+    couples['4'] = 0.5 #Aa-aa
+    couples['5'] = 0 #aa-aa
 
     ExValue = 0
 
